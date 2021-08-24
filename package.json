@@ -1,0 +1,16 @@
+{
+  "name": "desafio_serverest-autom-web",
+  "version": "0.0.1",
+  "description": "Desafio web - automacao com cypress - maispraTI",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "author": "Caroline Gonçalves Rosa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.0",
+    "faker": "^5.5.3"
+  }
+}
