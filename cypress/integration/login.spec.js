@@ -17,15 +17,3 @@ describe("Login", () => {
         cy.get('.alert').should('have.text', "Email e/ou senha inválidos");
     });
 });
-
-
-        /*cy.intercept({
-            method: 'POST',
-            path: '/login',
-        }).as(postLogin); 
-    
-        cy.wait('@postLogin').then(({request, response}) => {
-            expect(response.statusCode).to.eq(200);
-            expect(response.body).has.property('id');
-            expect(response.body.id).is.not.null;
-        });*/
