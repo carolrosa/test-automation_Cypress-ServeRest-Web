@@ -1,4 +1,4 @@
-# test-automation_Cypress-ServeRest
+# test-automation_Cypress-ServeRest Web
 Challenge - ServeRest web automated test using Cypress.
 
 First challenge from online Software Test Automation course.
